@@ -1,0 +1,2 @@
+- name: download goss
+  get_url: url=https://github.com/aelsabbahy/goss/releases/download/v0.3.6/goss-linux-amd64 dest=/usr/local/bin/goss mode=0755
